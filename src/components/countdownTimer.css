@@ -1,0 +1,22 @@
+.remainingNumber {
+    font-size: 5vw;
+}
+
+.timerContainer {
+    float: left;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+span {
+    font-size: 4vw;
+}
+
+.card {
+    flex-direction: column;
+    display: flex;
+}
