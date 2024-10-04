@@ -1,36 +1,42 @@
+import { useEffect, useMemo, useState } from "react";
 import "./countdownTimer.css"
 
 function CountdownTimer() {
-    const currentTime = new Date("2025-06-15T16:30:00Z")
-    const targetTime = new Date("2025-06-15T15:30:00Z")
+    const targetTime = useMemo(() => new Date("2025-06-15T15:30:00Z"), [])
+    let [remainingTime, setRemainingTime] = useState(0);
+    let days,hours,minutes,seconds = 0;
     
-    let days,hours,minutes,seconds,remainingTime = 1;
-    if (currentTime < targetTime)
-    {   
-        days = Math.floor((targetTime - currentTime) / 86400000)
-        remainingTime = (targetTime - currentTime) % 86400000
-        hours = Math.floor(remainingTime / 3600000)
-        remainingTime = remainingTime % 3600000
-        minutes = Math.floor(remainingTime / 60000)
-        seconds = Math.floor(remainingTime % 60000 / 1000)    
-    }
+    useEffect(() => {
+        setInterval(() => {
+            const currentTime = new Date();
+            const diff = targetTime - currentTime;
+            setRemainingTime(diff <= 0 ? 0 : diff);    
+        }, 1000);        
+    }, [targetTime]);
+
+    days = Math.floor((remainingTime) / 86400000)
+    remainingTime = (remainingTime) % 86400000
+    hours = Math.floor(remainingTime / 3600000)
+    remainingTime = remainingTime % 3600000
+    minutes = Math.floor(remainingTime / 60000)
+    seconds = Math.floor(remainingTime % 60000 / 1000)    
 
     return (
         <div className="timerContainer">
             <div className="card">
-                <span id="days" className="remainingNumber">{days}</span>
+                <span id="days" className="remainingNumber">{days.toString().padStart(2,'0')}</span>
                 <span>Days</span>
             </div>
             <div className="card">
-                <span id="hours" className="remainingNumber">{hours}</span>
+                <span id="hours" className="remainingNumber">{hours.toString().padStart(2,'0')}</span>
                 <span>Hours</span>
             </div>
             <div className="card">
-                <span id="minutes" className="remainingNumber">{minutes}</span>
+                <span id="minutes" className="remainingNumber">{minutes.toString().padStart(2,'0')}</span>
                 <span>Minutes</span>
             </div>
             <div className="card">
-                <span id="seconds" className="remainingNumber">{seconds}</span>
+                <span id="seconds" className="remainingNumber">{seconds.toString().padStart(2,'0')}</span>
                 <span>Seconds</span>
             </div>
         </div>
