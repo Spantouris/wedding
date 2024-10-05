@@ -3,11 +3,9 @@
 }
 
 .timerContainer {
-    margin-top: 1vw;
+    margin-top: 3vw;
     background-color: #fefcec;
-    float: left;
     align-items: center;
-    align-content: center;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
