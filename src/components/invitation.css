@@ -1,0 +1,20 @@
+.invitationContainer {
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitationCard {
+    max-width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../assets/Invitation.jpeg');
+}
+
+.invitationText {
+    display: flex;
+    text-align: center;
+    font-size: 3vw;
+    flex-direction: column;
+}

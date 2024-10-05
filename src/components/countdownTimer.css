@@ -3,6 +3,8 @@
 }
 
 .timerContainer {
+    margin-top: 1vw;
+    background-color: #fefcec;
     float: left;
     align-items: center;
     align-content: center;
@@ -12,11 +14,11 @@
     text-align: center;
 }
 
-span {
-    font-size: 4vw;
-}
-
 .card {
     flex-direction: column;
     display: flex;
+}
+
+.remainingCategory {
+    font-size: 4vw;
 }
