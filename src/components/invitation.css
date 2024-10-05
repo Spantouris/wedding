@@ -7,15 +7,16 @@
 
 .invitationCard {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
-    max-width: 60%;
+    padding: 5vw;
+    width: 80%;
     height: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-image: url('../assets/Invitation.jpeg');
 }
 
 .invitationText {
     display: flex;
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
     flex-direction: column;
 }
