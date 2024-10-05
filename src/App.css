@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-
 .App {
     overflow: auto;
     display: flex;
-    background-color: #fefcec;
+    align-content: center;
     flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .App{
+        width: 70%;
+    }
 }
