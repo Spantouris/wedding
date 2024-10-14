@@ -6,7 +6,7 @@
 }
 
 .invitationCard {
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
     padding: 5vw;
     width: 80%;
     height: 100%;
@@ -17,6 +17,66 @@
 .invitationText {
     display: flex;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2em;
+    font-style: italic;
     flex-direction: column;
+}
+
+.spaceBetween {
+    padding-bottom: 1em;
+}
+
+.names {
+    padding-top: 2.5em;
+}
+
+.time {
+    margin-top: -0.5em;
+}
+
+.location {
+    padding: 0 3em;
+}
+
+.manOfHonor {
+    margin-top: -0.5em;
+    padding-bottom: 2.5em;
+}
+
+@media screen and (max-width: 1200px) {
+    .invitationText {
+        font-size: 1.5em;
+    }
+
+    .names {
+        padding-top: 2em;
+    }
+
+    .manOfHonor {
+        padding-bottom: 1em;
+    }
+
+    .spaceBetween {
+        padding-bottom: 0.5em;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .invitationText {
+        font-size: 1em;
+    }
+
+    .names {
+        padding-top: 2em;
+    }
+
+    .manOfHonor {
+        padding-bottom: 1.5em;
+    }
+
+    .spaceBetween {
+        padding-bottom: 0.5em;
+    }
 }

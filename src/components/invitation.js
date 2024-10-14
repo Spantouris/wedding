@@ -5,12 +5,12 @@ function Invitation() {
         <div className="invitationContainer">
             <div className="invitationCard">
                 <div className="invitationText">
-                    <p>Γιάννης & Μαρία & Νεφέλη</p>
+                    <p className="names spaceBetween">Γιάννης & Μαρία & Νεφέλη</p>
                     <p>Κυριακή 15 Ιουνίου</p>
-                    <p>18:30</p>
-                    <p>Σας περιμένουμε στο γάμο και την βάφτιση της κόρης μας στις 15/06/2025 στο Ιπποστάσιο Μειμαρίδη στο Κορωπί</p>
+                    <p className="time spaceBetween">18:30</p>
+                    <p className="location spaceBetween">Σας περιμένουμε στο γάμο και την βάφτιση της κόρης μας στο Ιπποστάσιο Μειμαρίδη στο Κορωπί</p>
                     <p>Κουμπάροι</p>
-                    <p>Μάκης Μήλιος - Ζωή Αγγεπούλου</p>
+                    <p className="manOfHonor">Μάκης Μήλιος - Ζωή Αγγεπούλου</p>
                 </div>
             </div>
         </div>
