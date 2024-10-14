@@ -5,11 +5,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 40px;
 }
 
 .ourStoryTitle {
-    margin-bottom: 2vh;
     font-size: 7em;
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 1000;
