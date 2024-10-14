@@ -1,22 +1,31 @@
 .remainingNumber {
-    font-size: 5vw;
+  font-size: 5em;
 }
 
 .timerContainer {
-    margin-top: 3vh;
-    background-color: #fefcec;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+  margin-top: 3vh;
+  background-color: #fefcec;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .card {
-    flex-direction: column;
-    display: flex;
+  flex-direction: column;
+  display: flex;
 }
 
 .remainingCategory {
-    font-size: 4vw;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .remainingCategory {
+    font-size: 1em;
+  }
+  .remainingNumber {
+    font-size: 3em;
+  }
 }

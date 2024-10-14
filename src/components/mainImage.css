@@ -16,5 +16,17 @@
 }
 
 .mainText h1 {
-    font-size: 4vw;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 1200px) {
+    .mainText h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainText h1 {
+        font-size: 1.5em;
+    }
 }

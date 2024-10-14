@@ -21,6 +21,7 @@
 
 .faqCard {
     transform-style: preserve-3d;
+    padding: 5px;
     margin: 5px 5px;
     width: 350px;
     height: 200px;
