@@ -1,0 +1,40 @@
+.faqContainer {
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+.faqCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+}
+
+.faqTitle {
+    font-size: 7em;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 1000;
+    margin-bottom: 2vh;
+}
+
+.faqCard {
+    transform-style: preserve-3d;
+    margin: 5px 5px;
+    width: 400px;
+    height: 250px;
+    border: #6c9f88;
+    border-width: 5px;
+    border-style: double;
+}
+
+.faqText {
+    font-size: 1em;
+    color: #4e8a7d;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
