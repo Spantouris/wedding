@@ -1,14 +1,17 @@
-import { useState } from "react";
+import { useState, useId } from "react";
 
 function Card({ frontText, backText }) {
   const [active, setActive] = useState(false);
+  const frontId = useId();
+  const backId = useId();
 
-  function handleClick(e) {
-    e.target.parentElement.style.transform = "rotateY(180deg)";
-    e.target.parentElement.style.transition = "0.6s";
+  function handleClick(elementId) {
+    const element = document.getElementById(elementId);
+    element.style.transform = "rotateY(180deg)";
+    element.style.transition = "0.6s";
     setTimeout(() => {
-      e.target.parentElement.style.transform = "rotateY(0deg)";
-      e.target.parentElement.style.transition = "0s";
+      element.style.transform = "rotateY(0deg)";
+      element.style.transition = "0s";
       setActive(!active);
     }, 250);
   }
@@ -16,10 +19,12 @@ function Card({ frontText, backText }) {
   return (
     <div>
       <div
+        id={frontId}
         className="faqCard"
-        onClick={handleClick}
+        onClick={() => handleClick(frontId)}
         style={{
           backgroundColor: "#f8f2e1",
+          color: "#4e8a7d",
           display: active ? "none" : "flex",
         }}
       >
@@ -28,10 +33,12 @@ function Card({ frontText, backText }) {
         </div>
       </div>
       <div
+        id={backId}
         className="faqCard"
-        onClick={handleClick}
+        onClick={() => handleClick(backId)}
         style={{
           backgroundColor: "#ebdaec",
+          color: "#4e1d4e",
           display: active ? "flex" : "none",
         }}
       >
