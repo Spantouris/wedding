@@ -17,11 +17,6 @@
     font-style: normal;
 }
 
-
-.ourStorySteps {
-    min-width: 450px;
-}
-
 .storyStep {
     padding-top: 20px;
     display: flex;

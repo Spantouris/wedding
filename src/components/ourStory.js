@@ -9,7 +9,7 @@ function OurStory() {
     return (
         <div className="ourStoryContainer">
             <div className="ourStoryTitle">Our story</div>
-            <div className="ourStorySteps">
+            <div>
                 <div className="storyStep">
                     <img className="stepImage" src={met} alt="" />
                     <div className="stepText">
