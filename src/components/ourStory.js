@@ -13,13 +13,15 @@ function OurStory() {
                 <div className="storyStep">
                     <img className="stepImage" src={met} alt="" />
                     <div className="stepText">
-                        <p>When we met</p>
-                        <p>1/9/2017</p>
+                        <p>When we started</p>
+                        <p>dating</p>
+                        <p>3/1/2018</p>
                     </div>
                 </div>
                 <div className="storyStep">
                     <div className="stepText">
-                        <p>When we moved together</p>
+                        <p>When we moved</p>
+                        <p>together</p>
                         <p>1/1/2022</p>
                     </div>
                     <img className="stepImage" src={moved} alt="" />
@@ -34,7 +36,8 @@ function OurStory() {
                 </div>
                 <div className="storyStep">
                     <div className="stepText">
-                        <p>When we got engaged</p>
+                        <p>When we got</p>
+                        <p>engaged</p>
                         <p>19/02/2023</p>
                     </div>
                     <img className="stepImage" src={engage} alt="" />
