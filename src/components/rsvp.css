@@ -1,0 +1,22 @@
+.rsvpContainer {
+    margin-top: 1.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    margin-bottom: 5vh;
+    padding: 0px 10px;
+}
+
+.rsvpTitle {
+    font-size: 7em;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 1000;
+}
+
+.telephones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
