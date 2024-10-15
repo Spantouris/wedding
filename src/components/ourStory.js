@@ -8,18 +8,18 @@ import nefeli from "../assets/Nefeli.jpg"
 function OurStory() {
     return (
         <div className="ourStoryContainer">
-            <div className="ourStoryTitle">Our story</div>
+            <div className="ourStoryTitle">Our Story</div>
             <div>
                 <div className="storyStep">
                     <img className="stepImage" src={met} alt="" />
                     <div className="stepText">
-                        <p>When we started dating</p>
+                        <p>Όταν ξεκινήσαμε να βγαίνουμε</p>
                         <p>3/1/2018</p>
                     </div>
                 </div>
                 <div className="storyStep">
                     <div className="stepText">
-                        <p>When we moved together</p>
+                        <p>Όταν μετακομίσαμε μαζί</p>
                         <p>1/1/2022</p>
                     </div>
                     <img className="stepImage" src={moved} alt="" />
@@ -27,13 +27,13 @@ function OurStory() {
                 <div className="storyStep">
                     <img className="stepImage" src={cats} alt="" />
                     <div className="stepText">
-                        <p>When we adopted our cats</p>
+                        <p>Όταν υιοθετήσαμε τις γάτες μας</p>
                         <p>17/10/2022</p>
                     </div>
                 </div>
                 <div className="storyStep">
                     <div className="stepText">
-                        <p>When we got engaged</p>
+                        <p>Όταν αρραβωνιαστήκαμε</p>
                         <p>19/02/2023</p>
                     </div>
                     <img className="stepImage" src={engage} alt="" />
@@ -41,7 +41,7 @@ function OurStory() {
                 <div className="storyStep">
                     <img className="stepImage" src={nefeli} alt="" />
                     <div className="stepText">
-                        <p>Nefeli is born</p>
+                        <p>Όταν γεννήθηκε η Νεφέλη</p>
                         <p>19/11/2023</p>
                     </div>
                 </div>

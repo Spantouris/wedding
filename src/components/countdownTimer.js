@@ -25,19 +25,19 @@ function CountdownTimer() {
         <div className="timerContainer">
             <div className="card">
                 <span id="days" className="remainingNumber">{days.toString().padStart(2, '0')}</span>
-                <span className="remainingCategory">Days</span>
+                <span className="remainingCategory">Ημέρες</span>
             </div>
             <div className="card">
                 <span id="hours" className="remainingNumber">{hours.toString().padStart(2, '0')}</span>
-                <span className="remainingCategory">Hours</span>
+                <span className="remainingCategory">Ώρες</span>
             </div>
             <div className="card">
                 <span id="minutes" className="remainingNumber">{minutes.toString().padStart(2, '0')}</span>
-                <span className="remainingCategory">Minutes</span>
+                <span className="remainingCategory">Λεπτά</span>
             </div>
             <div className="card">
                 <span id="seconds" className="remainingNumber">{seconds.toString().padStart(2, '0')}</span>
-                <span className="remainingCategory">Seconds</span>
+                <span className="remainingCategory">Δεύτερα</span>
             </div>
         </div>
     );
