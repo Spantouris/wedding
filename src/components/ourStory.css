@@ -1,28 +1,35 @@
 .ourStoryContainer {
-    margin-top: 3vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .storyStep {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .stepText {
-    padding: 0 20px;
-    text-align: center;
-    font-size: 2em;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 2em;
 }
 
 .stepImage {
-    border: #6c9f88;
-    border-width: 4px;
-    border-style: solid;
-    width: 250px;
-    height: 300px;
+  border: #6c9f88;
+  border-width: 4px;
+  border-style: solid;
+  width: 250px;
+  height: 300px;
+}
+
+@media screen and (max-width: 550px) {
+  .storyStep {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
 }

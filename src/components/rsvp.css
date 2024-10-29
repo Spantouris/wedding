@@ -1,19 +1,29 @@
 .rsvpContainer {
-    margin-top: 3vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 5vh;
-    padding: 0px 20px;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  padding: 0px 20px;
 }
 
 .rsvpText {
-    font-size: 2em;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 550px) {
+  .rsvpText {
+    font-size: 1.5em;
+  }
+
+  .iban {
+    font-size: 1em;
+  }
 }
 
 .telephones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2vh;
 }

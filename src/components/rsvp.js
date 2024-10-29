@@ -20,7 +20,7 @@ function Rsvp() {
           </div>
         </div>
         <div>
-          Προαιρετική λίστα γάμου: <b>GR2602600340000710201370006</b> (Eurobank)
+          Προαιρετική λίστα γάμου: <b className="iban">GR2602600340000710201370006</b> (Eurobank)
         </div>
       </div>
     </div>

@@ -8,15 +8,15 @@ function FaQ() {
       <div className="faqCards">
         <Card
           frontText="Ποιός έκανε την πρώτη κίνηση;"
-          backText="Η Μαρία γιατί ο Γιάννης ήταν χαζός"
+          backText="Η Μαρία"
         />
         <Card
-          frontText="Ποιός έκανε την πρώτη κίνηση;"
-          backText="Η Μαρία γιατί ο Γιάννης ήταν χαζός"
+          frontText="Ποιός είναι πιο αγχωμένος;"
+          backText="Φυσικά ο Γιάννης"
         />
         <Card
-          frontText="Ποιός έκανε την πρώτη κίνηση;"
-          backText="Η Μαρία γιατί ο Γιάννης ήταν χαζός"
+          frontText="Που είναι ο κυριος Λιοντάρης;"
+          backText="Θα σας απαντήσει η Νεφέλη"
         />
       </div>
     </div>
