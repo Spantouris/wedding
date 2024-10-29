@@ -1,16 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 .ourStoryContainer {
-    margin-top: 1.5vh;
+    margin-top: 3vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.ourStoryTitle {
-    font-size: 7em;
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 1000;
 }
 
 .storyStep {
@@ -24,8 +16,7 @@
 .stepText {
     padding: 0 20px;
     text-align: center;
-    font-size: 1em;
-    font-family: "Ubuntu Mono", monospace;
+    font-size: 2em;
 }
 
 .stepImage {

@@ -18,12 +18,12 @@
 }
 
 .remainingCategory {
-  font-size: 2em;
+  font-size: 4em;
 }
 
 @media screen and (max-width: 600px) {
   .remainingCategory {
-    font-size: 1em;
+    font-size: 2em;
   }
   .remainingNumber {
     font-size: 3em;

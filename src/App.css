@@ -1,20 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url("https://use.typekit.net/iar6zip.css");
 
 .App {
-    overflow: auto;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+  overflow: auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  font-family: "pf-mediterra";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-size: 6em;
 }
 
 @media screen and (min-width: 768px) {
-    .App{
-        width: 90%;
-    }
+  .App {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .App{
-        width: 70%;
-    }
+  .App {
+    width: 70%;
+  }
 }

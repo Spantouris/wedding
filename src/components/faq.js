@@ -4,7 +4,7 @@ import "./faq.css";
 function FaQ() {
   return (
     <div className="faqContainer">
-      <div className="faqTitle">Fun facts</div>
+      <div className="title faqTitle">Fun facts</div>
       <div className="faqCards">
         <Card
           frontText="Ποιός έκανε την πρώτη κίνηση;"
