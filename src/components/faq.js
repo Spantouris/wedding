@@ -7,16 +7,28 @@ function FaQ() {
       <div className="title faqTitle">Fun facts</div>
       <div className="faqCards">
         <Card
-          frontText="Ποιός έκανε την πρώτη κίνηση;"
-          backText="Η Μαρία"
+          frontText="Πού έγινε η πρόταση;"
+          backText="Στην Disneyland αλλά χωρίς δαχτυλίδι."
+        />
+        <Card
+          frontText="Αγαπημένες διακοπές μαζί;"
+          backText="ΜΥΚΟΝΟΟΟΟΟΟΣ! Δεν έχουμε πάει. Ρώμη!"
+        />
+        <Card
+          frontText="Πώς γνωριστήκατε;"
+          backText="Στην ένδοξη Pobuca, όπου δουλεύαμε μαζί."
+        />
+        <Card
+          frontText="Αγαπημένη ανάμνηση με την Νεφέλη;"
+          backText="Όταν ξεκαρδίζεται με χαζομάρες (Χεχεχεχε)."
         />
         <Card
           frontText="Ποιός είναι πιο αγχωμένος;"
-          backText="Φυσικά ο Γιάννης"
+          backText="Ο Γιάννης. Πάντα, για τα πάντα."
         />
         <Card
-          frontText="Που είναι ο κυριος Λιοντάρης;"
-          backText="Θα σας απαντήσει η Νεφέλη"
+          frontText="Ποιο θα είναι το τραγούδι που θα χορέψετε;"
+          backText="Ερευνάται ακόμα, φέρτε βοήθεια."
         />
       </div>
     </div>
