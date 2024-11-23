@@ -23,6 +23,7 @@
 
 .names {
   padding-top: 80px;
+  margin-bottom: -20px;
 }
 
 .location {
@@ -39,7 +40,7 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1270px) {
   .location {
     padding: 50px;
   }
@@ -48,12 +49,12 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1120px) {
   .invitationText {
     font-size: 2em;
   }
   .location {
-    padding: 80px;
+    padding: 7-px;
   }
 }
 
@@ -62,27 +63,30 @@
     padding-top: 50px;
   }
   .location {
-    padding: 50px;
+    padding: 45px;
   }
   .time {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .invitationText {
     font-size: 1.5em;
   }
   .location {
     padding: 30px;
   }
+  .manOfHonor {
+    margin-bottom: 40px;
+  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 465px) {
   .location {
     padding: 0px;
   }
   .manOfHonor {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 }
