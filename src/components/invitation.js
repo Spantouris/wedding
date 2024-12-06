@@ -11,7 +11,7 @@ function Invitation() {
                     <p>Κυριακή 15 Ιουνίου</p>
                     <p className="time">18:30</p>
                     <p>Κουμπάροι</p>
-                    <p className="manOfHonor">Μάκης Μήλιος - Ζωή Αγγεπούλου</p>
+                    <p className="manOfHonor">Μάκης Μήλιος - Ζωή Αγγελοπούλου</p>
                 </div>
             </div>
         </div>
